@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<script>
+function checkData() {
+    //alert("aa");
+    if(cform.name.value == "" ||
+       cform.birth.value == ""){
+        alert("이름과 생년월일을 빠짐없이  기입하세요");
+        return;
+    }
+    cform.submit();
+}
+</script>
+
+</head>
+<body>
+
+<h2>정보 입력</h2>
+
+<div>
+    <form name="cform" action="/search/memberlist/created" method="post">{% csrf_token%}
+        <table border="1">
+            <tr><td>이름 :  <input type="text" name="name"></td></tr>
+            <tr><td>생년월일 :  <input type="text" name="birth"></td></tr>
+            <tr><td colspan="2" style="text-align:center;">
+            <input type="button" value="저장" onclick="checkData()">
