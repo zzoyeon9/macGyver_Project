@@ -1,0 +1,74 @@
+collects:
+  #- kafka9
+  #- kafka811
+  #- java-myapp
+
+rules:
+  - name: java-myapp
+    jvmPrefix: java.memory
+    tags: "app=myapp"
+    jmxUrl: "service:jmx:rmi:///jndi/rmi://localhost:9393/jmxrmi"
+    #jmxUsername:
+    #jmxPassword:
+
+  - name: kafka9
+    metrics:
+    - kafka.cluster:type=Partition,name=UnderReplicated,topic=*,partition=* Value topic,partition
+    - kafka.controller:type=ControllerStats,name=* Count
+    - kafka.controller:type=KafkaController,name=* Value
+    - kafka.coordinator:type=GroupMetadataManager,name=* Value
+    - kafka.log:type=Log,name=*,topic=*,partition=* Value topic,partition topic=__consumer_offsets
+    - kafka.log:type=LogCleaner,name=* Value
+    - kafka.log:type=LogCleanerManager,name=* Value
+    - kafka.log:type=LogFlushStats,name=* Count
+    - kafka.network:type=Processor,name=IdlePercent,networkProcessor=* Value networkProcessor
+    - kafka.network:type=RequestChannel,name=RequestQueueSize Value
+    - kafka.network:type=RequestChannel,name=ResponseQueueSize,processor=* Value processor
+    - kafka.network:type=RequestMetrics,name=*,request=* Count request
+    - kafka.network:type=SocketServer,name=NetworkProcessorAvgIdlePercent Value
+    - kafka.server:type=BrokerTopicMetrics,name=*,topic=* Count topic topic=__consumer_offsets
+    - kafka.server:type=DelayedFetchMetrics,name=ExpiresPerSec,fetcherType=* Count fetcherType
+    - kafka.server:type=FetcherLagMetrics,name=ConsumerLag,clientId=*,topic=*,partition=* Value clientId,topic,partition topic=__consumer_offsets
+    - kafka.server:type=DelayedOperationPurgatory,name=*,delayedOperation=* Value delayedOperation
+    - kafka.server:type=FetcherStats,name=*,clientId=*,brokerHost=*,brokerPort=* Count clientId,brokerHost,brokerPort
+    - kafka.server:type=KafkaRequestHandlerPool,name=RequestHandlerAvgIdlePercent Count
+    - kafka.server:type=KafkaServer,name=BrokerState Value
+    - kafka.server:type=*,client-id=* byte-rate,throttle-time client-id
+    - kafka.server:type=ReplicaFetcherManager,name=*,clientId=* Value clientId
+    - kafka.server:type=ReplicaManager,name=IsrExpandsPerSec Count
+    - kafka.server:type=ReplicaManager,name=IsrShrinksPerSec Count
+    - kafka.server:type=ReplicaManager,name=LeaderCount Value
+    - kafka.server:type=ReplicaManager,name=PartitionCount Value
+    - kafka.server:type=ReplicaManager,name=UnderReplicatedPartitions Value
+    - kafka.server:type=replica-fetcher-metrics,broker-id=*,fetcher-id=* connection-close-rate,connection-count,connection-creation-rate,incoming-byte-rate,io-ratio,io-time-ns-avg,io-wait-ratio,io-wait-time-ns-avg,network-io-rate,outgoing-byte-rate,request-rate,request-size-max,request-size-avg,response-rate,select-rate broker-id,fetcher-id
+    jvmPrefix: kafka.jvm
+    jmxUrl: "service:jmx:rmi:///jndi/rmi://localhost:9393/jmxrmi"
+    #jmxUsername:
+    #jmxPassword:
+
+  - name: kafka811
+    metrics:
+    - \"kafka.network\":type=\"RequestMetrics\",name=* Count name
+    - \"kafka.network\":type=\"RequestChannel\",name=* Value name
+    - \"kafka.cluster\":type=\"Partition\",name=* Value name
+    - \"kafka.controller\":type=\"KafkaController\",name=* Value name
+    - \"kafka.controller\":type=\"ControllerStats\",name=* Count name
+    - \"kafka.controller\":type=\"ControllerStats\",name=* Count
+    - \"kafka.log\":type=\"Log\",name=* Value name
+    - \"kafka.server\":type=\"BrokerTopicMetrics\",name=* Count name
+    - \"kafka.server\":type=\"DelayedFetchRequestMetrics\",name=* Count name
+    - \"kafka.server\":type=\"DelayedProducerRequestMetrics\",name=* Count name
+    - \"kafka.server\":type=\"FetchRequestPurgatory\",name=* Value name
+    - \"kafka.server\":type=\"ProducerRequestPurgatory\",name=* Value name
+    - \"kafka.server\":type=\"ReplicaFetcherManager\",name=* Value name
+    - \"kafka.server\":type=\"ReplicaManager\",name=\"IsrExpandsPerSec\" Count name
+    - \"kafka.server\":type=\"ReplicaManager\",name=\"IsrShrinksPerSec\" Count name
+    - \"kafka.server\":type=\"ReplicaManager\",name=\"LeaderCount\" Value name
+    - \"kafka.server\":type=\"ReplicaManager\",name=\"PartitionCount\" Value name
+    - \"kafka.server\":type=\"ReplicaManager\",name=\"UnderReplicatedPartitions\" Value name
+    jvmPrefix: kafka.jvm
+    jmxUrl: "service:jmx:rmi:///jndi/rmi://localhost:9393/jmxrmi"
+    #jmxUsername:
+    #jmxPassword:
+
+intervalSec: 10

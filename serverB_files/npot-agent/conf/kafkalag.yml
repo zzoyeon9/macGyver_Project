@@ -1,0 +1,27 @@
+collects:
+  - zk1
+  - kafka1
+  - storm1
+
+refresh: 10
+zkSessionTimeout: 30
+zkConnectionTimeout: 30
+zkConsumerPrefix: kafkalag-
+
+rules:
+  - name: zk1
+    zk: 127.0.0.1:2181/kafka
+    offsetStorage: zookeeper
+
+  - name: kafka1
+    zk: 127.0.0.1:2181/kafka
+    offsetStorage: kafka
+    kafkaOffsetForceFromStart: false
+    bootstrapServers: 127.0.0.1:9092
+    # maxPartitionFetchBytes: 1048576
+
+  - name: storm1
+    zk: 127.0.0.1:2181
+    offsetStorage: storm
+    stormZKOffsetBase: /storm/test-spout
+    kafkaZkRoot: /kafka

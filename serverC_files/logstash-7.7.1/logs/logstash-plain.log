@@ -1,0 +1,97 @@
+[2020-10-23T11:42:06,377][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/home1/irteam/logstash-7.7.1/data/queue"}
+[2020-10-23T11:42:06,540][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/home1/irteam/logstash-7.7.1/data/dead_letter_queue"}
+[2020-10-23T11:42:07,068][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T11:42:07,096][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T11:42:07,128][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"576268cd-8387-4583-bb2f-a049adb8a096", :path=>"/home1/irteam/logstash-7.7.1/data/uuid"}
+[2020-10-23T11:42:09,435][INFO ][org.reflections.Reflections] Reflections took 48 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T11:42:10,132][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T11:42:10,145][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x6cc1fcf9 run>"}
+[2020-10-23T11:42:11,337][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_bbacef3e6d8f0e2b076700c55f42cf48", :path=>["/home1/irteam/log/haproxy.log"]}
+[2020-10-23T11:42:11,366][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T11:42:11,445][INFO ][filewatch.observingtail  ][main][fc4e6a2ce13daa1e3cc0602c852b50da300554a0d20eb7da7ec97125a7216229] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T11:42:11,440][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T11:42:11,876][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T11:51:53,252][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T11:51:53,408][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T11:51:56,094][INFO ][org.reflections.Reflections] Reflections took 54 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T11:51:56,849][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T11:51:56,862][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x21867413 run>"}
+[2020-10-23T11:51:58,033][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_bbacef3e6d8f0e2b076700c55f42cf48", :path=>["/home1/irteam/log/haproxy.log"]}
+[2020-10-23T11:51:58,077][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T11:51:58,145][INFO ][filewatch.observingtail  ][main][bba205b33c5109e9a3ceb1febf8c2ae2437df1023fc5ebbbac70faf851a790f2] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T11:51:58,164][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T11:51:58,517][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T11:51:59,496][ERROR][logstash.outputs.http    ][main][228da7d4cdba281705e43cd61812b03860c7cd532d0a838fbac37b6e24fdc391] [HTTP Output Failure] Encountered non-2xx HTTP code 400 {:response_code=>400, :url=>"http://nelo2-col.navercorp.com/_store", :event=>#<LogStash::Event:0x2276717e>}
+[2020-10-23T11:51:59,506][ERROR][logstash.outputs.http    ][main][228da7d4cdba281705e43cd61812b03860c7cd532d0a838fbac37b6e24fdc391] [HTTP Output Failure] Encountered non-2xx HTTP code 400 {:response_code=>400, :url=>"http://nelo2-col.navercorp.com/_store", :event=>#<LogStash::Event:0x1d0e57d9>}
+[2020-10-23T11:52:00,944][ERROR][logstash.outputs.http    ][main][228da7d4cdba281705e43cd61812b03860c7cd532d0a838fbac37b6e24fdc391] [HTTP Output Failure] Encountered non-2xx HTTP code 400 {:response_code=>400, :url=>"http://nelo2-col.navercorp.com/_store", :event=>#<LogStash::Event:0x68c140f8>}
+[2020-10-23T11:52:15,979][ERROR][logstash.outputs.http    ][main][228da7d4cdba281705e43cd61812b03860c7cd532d0a838fbac37b6e24fdc391] [HTTP Output Failure] Encountered non-2xx HTTP code 400 {:response_code=>400, :url=>"http://nelo2-col.navercorp.com/_store", :event=>#<LogStash::Event:0x57e21f81>}
+[2020-10-23T11:52:28,520][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2020-10-23T11:52:28,618][INFO ][filewatch.observingtail  ] QUIT - closing all files and shutting down.
+[2020-10-23T11:52:29,050][INFO ][logstash.javapipeline    ] Pipeline terminated {"pipeline.id"=>"main"}
+[2020-10-23T11:52:29,108][INFO ][logstash.runner          ] Logstash shut down.
+[2020-10-23T11:53:47,687][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T11:53:47,858][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T11:53:50,448][INFO ][org.reflections.Reflections] Reflections took 49 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T11:53:51,202][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T11:53:51,215][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x4b2748a1 run>"}
+[2020-10-23T11:53:52,376][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_bbacef3e6d8f0e2b076700c55f42cf48", :path=>["/home1/irteam/log/haproxy.log"]}
+[2020-10-23T11:53:52,422][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T11:53:52,499][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T11:53:52,492][INFO ][filewatch.observingtail  ][main][2a69227fc2c54e2cd7d3142a404f8ad314bcca1c95fdd7a2320e9251453eccc6] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T11:53:52,878][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T14:15:19,685][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/home1/irteam/logstash-7.7.1/data/queue"}
+[2020-10-23T14:15:19,841][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/home1/irteam/logstash-7.7.1/data/dead_letter_queue"}
+[2020-10-23T14:15:20,247][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T14:15:20,278][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T14:15:22,459][INFO ][org.reflections.Reflections] Reflections took 39 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T14:15:23,066][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T14:15:23,078][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x3ce01b29 run>"}
+[2020-10-23T14:15:24,110][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_997eae50a6d60a9b8fdfe370f67a1048", :path=>["/home1/irteam/nginx/logs/access.log, /home1/irteam/nginx/logs/error.log"]}
+[2020-10-23T14:15:24,138][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T14:15:24,196][INFO ][filewatch.observingtail  ][main][5c913d541c8d757ce7c8a95a054a987ee383525a50e2a3abd3eb5482f66ea26c] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T14:15:24,205][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T14:15:24,527][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T14:27:16,633][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2020-10-23T14:27:16,712][INFO ][filewatch.observingtail  ] QUIT - closing all files and shutting down.
+[2020-10-23T14:27:17,241][INFO ][logstash.javapipeline    ] Pipeline terminated {"pipeline.id"=>"main"}
+[2020-10-23T14:27:17,730][INFO ][logstash.runner          ] Logstash shut down.
+[2020-10-23T14:28:19,202][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T14:28:19,314][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T14:28:21,341][INFO ][org.reflections.Reflections] Reflections took 42 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T14:28:21,933][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T14:28:21,945][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x19bc29f6 run>"}
+[2020-10-23T14:28:22,948][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_899f34faa43df920999ac69bb95b02d8", :path=>["/home1/irteam/nginx/logs/access.log", "/home1/irteam/nginx/logs/error.log"]}
+[2020-10-23T14:28:22,973][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T14:28:23,026][INFO ][filewatch.observingtail  ][main][8eaf87be7b720955e222a70c676db7e234628f0d43461b6576b8751bd36c8601] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T14:28:23,037][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T14:28:23,450][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T14:35:55,516][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/home1/irteam/logstash-7.7.1/data/queue"}
+[2020-10-23T14:35:55,756][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/home1/irteam/logstash-7.7.1/data/dead_letter_queue"}
+[2020-10-23T14:35:56,125][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T14:35:56,168][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T14:35:58,503][INFO ][org.reflections.Reflections] Reflections took 43 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T14:35:59,122][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T14:35:59,132][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x18495f0d run>"}
+[2020-10-23T14:36:00,200][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_899f34faa43df920999ac69bb95b02d8", :path=>["/home1/irteam/nginx/logs/access.log", "/home1/irteam/nginx/logs/error.log"]}
+[2020-10-23T14:36:00,227][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T14:36:00,290][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T14:36:00,294][INFO ][filewatch.observingtail  ][main][8eaf87be7b720955e222a70c676db7e234628f0d43461b6576b8751bd36c8601] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T14:36:00,734][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T14:38:07,192][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2020-10-23T14:38:07,279][INFO ][filewatch.observingtail  ] QUIT - closing all files and shutting down.
+[2020-10-23T14:38:07,460][INFO ][logstash.javapipeline    ] Pipeline terminated {"pipeline.id"=>"main"}
+[2020-10-23T14:38:07,509][INFO ][logstash.runner          ] Logstash shut down.
+[2020-10-23T14:47:46,912][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-23T14:47:47,034][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-23T14:47:49,235][INFO ][org.reflections.Reflections] Reflections took 44 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-23T14:47:49,835][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-23T14:47:49,845][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x68ae4602 run>"}
+[2020-10-23T14:47:50,909][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/logstash-7.7.1/data/plugins/inputs/file/.sincedb_899f34faa43df920999ac69bb95b02d8", :path=>["/home1/irteam/nginx/logs/access.log", "/home1/irteam/nginx/logs/error.log"]}
+[2020-10-23T14:47:50,939][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-23T14:47:50,991][INFO ][filewatch.observingtail  ][main][8eaf87be7b720955e222a70c676db7e234628f0d43461b6576b8751bd36c8601] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-23T14:47:51,015][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-23T14:47:51,360][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-23T14:56:06,237][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2020-10-23T14:56:06,329][INFO ][filewatch.observingtail  ] QUIT - closing all files and shutting down.
+[2020-10-23T14:56:07,020][INFO ][logstash.javapipeline    ] Pipeline terminated {"pipeline.id"=>"main"}
+[2020-10-23T14:56:07,081][INFO ][logstash.runner          ] Logstash shut down.

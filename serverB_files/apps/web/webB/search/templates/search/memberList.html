@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>NIT Platform Operation Team Member Information Searching Page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<style>
+body {
+    padding-top: 60px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">플랫폼 운영 팀원 조회 </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="searchForm">
+        <h1>팀원 목록</h1>
+        <table border="1">
+        <tr> <th>이름</th><th>생년월일</th><th>변경</th></tr>
+        {% if data %}
+        {% for i in data %}
+        <tr>
+            <td>{{i.name}}</td>
+            <td>{{i.birth}}</td>
+            <td>
+        <a href="/search/memberlist/updating?member_id={{i.id}}">수정</a>
+        <a href="/search/memberlist/deleting?member_id={{i.id}}">삭제</a></td><br>
+           
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr><td colspan="5"> 자료 없음</td></tr>
+        {% endif %}
+        </table>
+        </div>
+        <a href="/search/memberlist/creating">추가</a><br>
+    
+
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,94 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Oct 20 13:58:19 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 19 October 2020 07:40:56
+os: Linux-3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020
+nodename: dev-dump-yjcho003-ncl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home1/irteam/web/webB
+detected binary path: /home1/irteam/python3/bin/uwsgi
+chdir() to /home1/irteam/web/webB
+your processes number limit is 81920
+your memory page size is 4096 bytes
+detected max file descriptor number: 81920
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 3
+unable to find group nginx
+VACUUM WARNING: unix socket /home1/irteam/sock/webB.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Oct 20 13:58:29 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 19 October 2020 07:40:56
+os: Linux-3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020
+nodename: dev-dump-yjcho003-ncl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home1/irteam/web/webB
+detected binary path: /home1/irteam/python3/bin/uwsgi
+chdir() to /home1/irteam/web/webB
+your processes number limit is 81920
+your memory page size is 4096 bytes
+detected max file descriptor number: 81920
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 3
+unable to find group nginx
+VACUUM WARNING: unix socket /home1/irteam/sock/webB.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Oct 20 14:03:31 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 19 October 2020 07:40:56
+os: Linux-3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020
+nodename: dev-dump-yjcho003-ncl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home1/irteam/web/webB
+detected binary path: /home1/irteam/python3/bin/uwsgi
+chdir() to /home1/irteam/web/webB
+your processes number limit is 81920
+your memory page size is 4096 bytes
+detected max file descriptor number: 81920
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 3
+unable to find group nginx
+VACUUM WARNING: unix socket /home1/irteam/sock/webB.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Oct 20 14:06:13 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 19 October 2020 07:40:56
+os: Linux-3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020
+nodename: dev-dump-yjcho003-ncl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home1/irteam/web/webB
+detected binary path: /home1/irteam/python3/bin/uwsgi
+chdir() to /home1/irteam/web/webB
+your processes number limit is 81920
+your memory page size is 4096 bytes
+detected max file descriptor number: 81920
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8001 fd 3
+unable to find group nginx
+VACUUM WARNING: unix socket /home1/irteam/sock/webB.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Oct 20 14:41:36 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-16) on 19 October 2020 07:40:56
+os: Linux-3.10.0-1127.18.2.el7.x86_64 #1 SMP Sun Jul 26 15:27:06 UTC 2020
+nodename: dev-dump-yjcho003-ncl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home1/irteam/web/webB
+detected binary path: /home1/irteam/python3/bin/uwsgi
+chdir() to /home1/irteam/web/webB
+your processes number limit is 81920
+your memory page size is 4096 bytes
+detected max file descriptor number: 81920
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group nginx
+VACUUM WARNING: unix socket /home1/irteam/sock/webB.sock changed inode. Skip removal

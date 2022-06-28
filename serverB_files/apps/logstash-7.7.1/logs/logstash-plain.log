@@ -1,0 +1,20 @@
+[2020-10-28T09:44:31,802][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-28T09:44:31,945][FATAL][logstash.runner          ] Logstash could not be started because there is already another instance using the configured data directory.  If you wish to run multiple instances, you must change the "path.data" setting.
+[2020-10-28T09:44:31,975][ERROR][org.logstash.Logstash    ] java.lang.IllegalStateException: Logstash stopped processing because of an error: (SystemExit) exit
+[2020-10-28T09:45:18,194][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-28T09:45:18,345][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-28T09:45:19,048][INFO ][logstash.config.source.local.configpathloader] No config files found in path {:path=>"/home1/irteam/apps/logstash-7.7.1/bin/config/logstash.conf"}
+[2020-10-28T09:45:19,069][ERROR][logstash.config.sourceloader] No configuration found in the configured sources.
+[2020-10-28T09:45:19,296][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-28T09:45:24,165][INFO ][logstash.runner          ] Logstash shut down.
+[2020-10-28T09:46:15,129][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-10-28T09:46:15,245][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.1"}
+[2020-10-28T09:46:17,421][INFO ][org.reflections.Reflections] Reflections took 41 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-10-28T09:46:18,004][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.RubyArray) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-10-28T09:46:18,021][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["/home1/irteam/apps/logstash-7.7.1/config/logstash.conf"], :thread=>"#<Thread:0x5d31d9ec run>"}
+[2020-10-28T09:46:19,032][INFO ][logstash.inputs.file     ][main] No sincedb_path set, generating one based on the "path" setting {:sincedb_path=>"/home1/irteam/apps/logstash-7.7.1/data/plugins/inputs/file/.sincedb_2df4f4843c05826ca28d4335be029a23", :path=>["/home1/irteam/apps/nginx/logs/access.log", "/home1/irteam/apps/nginx/logs/error.log"]}
+[2020-10-28T09:46:19,057][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-10-28T09:46:19,112][INFO ][filewatch.observingtail  ][main][1bb9f0319fe8b5ff91e66024aee5d3c46eac28b5eab28ece6c896969e824c1a0] START, creating Discoverer, Watch with file and sincedb collections
+[2020-10-28T09:46:19,118][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-10-28T09:46:19,523][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-10-28T09:48:24,638][WARN ][logstash.runner          ] SIGHUP received.

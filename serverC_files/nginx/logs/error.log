@@ -1,0 +1,81 @@
+2020/09/11 17:43:09 [emerg] 54660#0: unknown directive "acess_log" in /home1/irteam/nginx/conf/nginx.conf:60
+2020/09/11 17:46:37 [error] 54727#0: *2 open() "/home1/irteam/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.25.209.246, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.113.79.189", referrer: "http://10.113.79.189/stats"
+2020/09/11 17:46:54 [error] 54727#0: *9 open() "/home1/irteam/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.25.209.246, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.113.79.189", referrer: "https://10.113.79.189/"
+2020/09/11 17:46:58 [error] 54727#0: *9 open() "/home1/irteam/nginx/html/stats" failed (2: No such file or directory), client: 10.25.209.246, server: localhost, request: "GET /stats HTTP/1.1", host: "10.113.79.189"
+2020/09/14 14:51:34 [error] 54727#0: *22 open() "/home1/irteam/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.25.140.197, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.113.79.189", referrer: "http://10.113.79.189/stats"
+2020/10/15 16:30:10 [error] 54727#0: *118 open() "/home1/irteam/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.25.210.162, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.113.79.189", referrer: "http://10.113.79.189/"
+2020/10/17 14:35:29 [error] 54727#0: *126 open() "/home1/irteam/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.25.210.162, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.113.79.189", referrer: "http://10.113.79.189/"
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/19 18:41:56 [emerg] 43579#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/20 09:59:45 [error] 98450#0: *2 open() "/home1/irteam/nginx/html/favicon.ico" failed (2: No such file or directory), client: 10.95.103.4, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.113.79.189", referrer: "http://10.113.79.189/"
+2020/10/20 10:01:00 [emerg] 99555#0: "upstream" directive is not allowed here in /home1/irteam/nginx/conf/uwsgi.conf:1
+2020/10/20 11:04:59 [emerg] 103302#0: invalid number of arguments in "include" directive in /home1/irteam/nginx/conf/nginx.conf:28
+2020/10/20 11:05:23 [emerg] 103309#0: invalid number of arguments in "include" directive in /home1/irteam/nginx/conf/nginx.conf:28
+2020/10/20 11:05:41 [emerg] 103312#0: invalid number of arguments in "include" directive in /home1/irteam/nginx/conf/nginx.conf:28
+2020/10/20 11:06:01 [emerg] 103365#0: invalid number of arguments in "include" directive in /home1/irteam/nginx/conf/nginx.conf:28
+2020/10/20 11:06:21 [emerg] 103371#0: invalid number of arguments in "include" directive in /home1/irteam/nginx/conf/nginx.conf:28
+2020/10/20 11:07:25 [emerg] 103412#0: invalid host in upstream "/home1/irteam/sock/webB.sock" in /home1/irteam/nginx/conf/uwsgi.conf:10
+2020/10/20 11:08:16 [emerg] 103468#0: invalid host in upstream "/home1/irteam/webB.sock" in /home1/irteam/nginx/conf/uwsgi.conf:10
+2020/10/20 11:08:59 [emerg] 103510#0: invalid host in upstream "/home1/irteam/sock/webB.sock" in /home1/irteam/nginx/conf/uwsgi.conf:10
+2020/10/20 11:31:58 [emerg] 104961#0: invalid host in upstream "/home1/irteam/sock/webB.sock" in /home1/irteam/nginx/conf/uwsgi.conf:10
+2020/10/20 11:33:10 [emerg] 105021#0: open() "/home1/irteam/nginx/./nginx.conf" failed (2: No such file or directory)
+2020/10/20 11:39:58 [emerg] 105365#0: "upstream" directive is not allowed here in /home1/irteam/nginx/conf/webB_nginx.conf:1
+2020/10/20 11:45:36 [emerg] 105675#0: open() "/home1/irteam/nginx/conf/~/nginx/conf/uwsgi_params" failed (2: No such file or directory) in /home1/irteam/nginx/conf/webB_nginx.conf:29
+2020/10/20 11:46:22 [emerg] 105728#0: open() "/home1/irteam/nginx/nginx.conf" failed (2: No such file or directory)
+2020/10/20 11:46:51 [emerg] 105765#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 11:46:51 [emerg] 105765#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 11:46:51 [emerg] 105765#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 11:46:51 [emerg] 105765#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 11:46:51 [emerg] 105765#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 11:46:51 [emerg] 105765#0: still could not bind()
+2020/10/20 11:47:22 [error] 105779#0: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:8001", host: "10.113.79.189:8000"
+2020/10/20 11:49:28 [error] 105884#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 11:49:29 [error] 105884#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 11:50:19 [error] 105884#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 11:54:30 [error] 106206#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://10.113.79.189:8001", host: "10.113.79.189:8000"
+2020/10/20 11:54:32 [error] 106206#0: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://10.113.79.189:8001", host: "10.113.79.189:8000"
+2020/10/20 12:04:44 [error] 106206#0: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://10.113.79.189:8001", host: "10.113.79.189:8000"
+2020/10/20 12:13:12 [error] 106206#0: *10 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://10.113.79.189:8001", host: "10.113.79.189:8000"
+2020/10/20 12:24:27 [error] 107468#0: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 12:24:28 [error] 107468#0: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 12:28:43 [error] 107468#0: *8 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 13:52:29 [emerg] 113519#0: open() "/home1/irteam/nginx/./nginx/conf/nginx.conf" failed (2: No such file or directory)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: bind() to 0.0.0.0:443 failed (98: Address already in use)
+2020/10/20 13:52:47 [emerg] 113521#0: still could not bind()
+2020/10/20 14:20:37 [error] 113568#0: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://0.0.0.0:8001", host: "10.113.79.189:8000"
+2020/10/20 14:24:23 [emerg] 115368#0: open() "/home1/irteam/nginx/conf/nginx" failed (2: No such file or directory)
+2020/10/20 14:24:27 [emerg] 115369#0: open() "/home1/irteam/conf/nginx" failed (2: No such file or directory)
+2020/10/20 14:26:19 [crit] 115373#0: *1 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:26:20 [crit] 115373#0: *1 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:27:40 [crit] 115373#0: *5 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:27:41 [crit] 115373#0: *5 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:30:44 [crit] 115373#0: *9 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:30:46 [crit] 115373#0: *9 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:35:44 [crit] 115373#0: *13 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:35:46 [crit] 115373#0: *13 connect() to unix:///home1/irteam/sock/mysite.sock failed (2: No such file or directory) while connecting to upstream, client: 10.95.103.4, server: 10.113.79.189, request: "GET / HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/mysite.sock:", host: "10.113.79.189:8000"
+2020/10/20 14:38:11 [emerg] 116221#0: open() "/home1/irteam/nginx/./nginx.conf" failed (2: No such file or directory)
+2020/10/20 16:51:48 [error] 116224#0: *19 connect() to unix:///home1/irteam/sock/webB.sock failed (111: Connection refused) while connecting to upstream, client: 10.113.117.89, server: 10.113.79.189, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/webB.sock:", host: "10.113.117.89", referrer: "http://10.113.117.89/"
+2020/10/20 16:54:25 [error] 116224#0: *21 connect() to unix:///home1/irteam/sock/webB.sock failed (111: Connection refused) while connecting to upstream, client: 10.113.117.89, server: 10.113.79.189, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/webB.sock:", host: "10.113.117.89", referrer: "http://10.113.117.89/"
+2020/10/20 16:55:06 [error] 116224#0: *23 connect() to unix:///home1/irteam/sock/webB.sock failed (111: Connection refused) while connecting to upstream, client: 10.113.117.89, server: 10.113.79.189, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/webB.sock:", host: "10.113.117.89", referrer: "http://10.113.117.89/"
+2020/10/20 16:59:27 [error] 116224#0: *27 connect() to unix:///home1/irteam/sock/webB.sock failed (111: Connection refused) while connecting to upstream, client: 10.113.117.89, server: 10.113.79.189, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/webB.sock:", host: "10.113.117.89", referrer: "http://10.113.117.89/"
+2020/10/20 16:59:33 [error] 116224#0: *27 connect() to unix:///home1/irteam/sock/webB.sock failed (111: Connection refused) while connecting to upstream, client: 10.113.117.89, server: 10.113.79.189, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://unix:///home1/irteam/sock/webB.sock:", host: "10.113.117.89", referrer: "http://10.113.117.89/search/memberlist"

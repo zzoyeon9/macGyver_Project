@@ -1,0 +1,5 @@
+2020-10-22T17:53:49+09:00 I! Starting Agent v1.8.11
+2020-10-22T17:53:49+09:00 I! Loaded outputs: opentsdb
+2020-10-22T17:53:49+09:00 I! Loaded inputs: inputs.dfstat inputs.ifstat inputs.iostat inputs.netstat inputs.procstats inputs.haproxy
+2020-10-22T17:53:49+09:00 I! Tags enabled: cluster=dev host=dev-dump-yjcho001-ncl
+2020-10-22T17:53:49+09:00 I! Agent Config: Interval:15s, Quiet:false, Hostname:"dev-dump-yjcho001-ncl", Flush Interval:5s 
