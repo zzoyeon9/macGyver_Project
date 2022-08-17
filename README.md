@@ -7,7 +7,7 @@ Django Web & Infra deployment project
 
 ## Technologies Used
 
-- Django, HAproxy, Nginx, postgreSQL, Redis, Docker, Linux, Shell script, Python,
+- Django, HAproxy, Nginx, postgreSQL, Redis, Docker, Linux, Shell script, Python, uwsgi
 
 ## Duration
 3 Months
