@@ -21,7 +21,10 @@ Finally, load-balancing is performed using a round-robin method through a Haprox
 3. Change member information
 4. Deleting a member
 
-![image](https://user-images.githubusercontent.com/47707808/185307195-dda223d8-b916-46c9-8bd3-6a8812f8517e.png)
+
+![스크린샷 2022-08-18 오후 3 24 54](https://user-images.githubusercontent.com/47707808/185309511-5a96595e-b07f-47e9-93f8-5e5686150eb0.png)
+
+
 
 ## Technologies Used
 
