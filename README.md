@@ -1,5 +1,5 @@
 # macGyver
-Django Web(Only CRUD function with no Desgin, Front) & Infra deployment project 
+Django Web(Only Create / Read / Update / Delete function with no Design & Front) & Infra deployment project 
 
 
 
