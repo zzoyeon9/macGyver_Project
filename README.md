@@ -14,6 +14,15 @@ Redis was used for caching, PostgrSQL for general DB use.
 
 Finally, load-balancing is performed using a round-robin method through a Haproxy.
 
+## Function
+
+1. Team Member List Lookup
+2. Add a member
+3. Change member information
+4. Deleting a member
+
+![image](https://user-images.githubusercontent.com/47707808/185307195-dda223d8-b916-46c9-8bd3-6a8812f8517e.png)
+
 ## Technologies Used
 
 - Django, HAproxy, Nginx, postgreSQL, Redis, Docker, Linux(Centos 7), Shell script, Python, uwsgi
